@@ -1,0 +1,20 @@
+.container {
+  height: 50px;
+  background-color: #5a473e;
+  color: white;
+
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between; /* Logo on the left - menu on the right */
+  padding: 0 100px;
+  font-size: 18px;
+}
+
+.listItem {
+  display: inline;
+  margin-right: 30px;
+  font-size: 14px;
+  color: lightgray;
+  cursor: pointer;
+}
