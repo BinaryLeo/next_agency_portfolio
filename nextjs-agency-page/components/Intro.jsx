@@ -24,12 +24,12 @@ function Intro() {
 
       <div className={styles.card}>
         <Image
-          alt="fff"
-          src="/img/scooter.png"
-          width="80%"
-          height="80%"
-          layout="fill"
-          objectFit="cover"
+        alt="fff"
+        src="/img/Scooter.png"
+        width="80%"
+        height="80%"
+        layout="fill"
+        objectFit="cover"
         />
       </div>
     </div>

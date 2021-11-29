@@ -145,27 +145,27 @@ export const data = [
     {
       id: 1,
       logo: "yahoo.png",
-      avatar: "user1.jpeg",
+      avatar: "user1.jpg",
       comment:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
+        "1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
       name: "Harold Brown",
       title: "Executive Manager",
     },
     {
       id: 2,
       logo: "google.png",
-      avatar: "user2.jpeg",
+      avatar: "user2.jpg",
       comment:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
+        "2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
       name: "Anna Taylor",
       title: "HR Manager",
     },
     {
       id: 3,
       logo: "facebook.png",
-      avatar: "user3.jpeg",
+      avatar: "user3.jpg",
       comment:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
+        "3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
       name: "James Garry",
       title: "UI Designer",
     },
