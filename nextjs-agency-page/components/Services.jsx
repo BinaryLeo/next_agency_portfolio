@@ -9,13 +9,13 @@ const Services = ({ services }) => {
       <div className={styles.services}>
         {services.map((service) => (
           <Link key={service.id} href={`/products/${service.name}`} passHref>
-              <div className={styles.service}>
+            <div className={styles.service}>
               <div className={styles.desc}>{service.desc}</div>
               <span className={styles.cat}>{service.name}</span>
               <div className={styles.media}>
                 {service.video ? (
                   <video
-                  src={`/img/${service.video}`}
+                    src={`/img/${service.video}`}
                     autoPlay
                     loop
                     muted
