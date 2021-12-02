@@ -39,3 +39,17 @@
 .cardItem{
     margin-bottom: 20px;
 }
+@media screen and (max-width: 480px) {
+  .container {
+    height: auto;
+    flex-direction: column;
+  }
+  .title,
+  .linkTitle {
+    font-size: 30px;
+    margin: 0 auto;
+  }
+  .cardItem{
+    text-align: center;
+  }
+}
