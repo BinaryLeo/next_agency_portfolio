@@ -2,10 +2,8 @@
   height: 50px;
   background-color: #5a473e;
   color: white;
-
   display: flex;
   align-items: center;
-
   justify-content: space-between; /* Logo on the left - menu on the right */
   padding: 0 100px;
   font-size: 18px;
@@ -52,6 +50,9 @@
 @media screen and (max-width: 480px) {
   .container {
     padding: 0px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
   }
   .listItem {
     display: none;

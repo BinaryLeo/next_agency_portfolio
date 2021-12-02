@@ -69,6 +69,7 @@
   }
   .card {
     padding: 50px;
+    margin-top: 20px;
     align-items: center;
     text-align: center;
     justify-content: space-between;
