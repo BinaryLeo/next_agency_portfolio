@@ -1,7 +1,6 @@
 import styles from "../styles/intro.module.css";
 import Image from "next/image";
 import Circle from "../components/Circle";
-
 function Intro() {
   return (
     <div className={styles.container}>
@@ -21,7 +20,6 @@ function Intro() {
         </p>
         <button className={styles.button}>DISCOVER</button>
       </div>
-
       <div className={styles.card}>
         <Image
           alt="fff"

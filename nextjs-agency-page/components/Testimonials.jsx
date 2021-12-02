@@ -11,7 +11,6 @@ function Testimonials() {
         {users.map((users) => (
           <div key={users.id} className={styles.card}>
           <Image
-         
               src={`/img/${users.logo}`}
               alt=""
               width="30px"
@@ -38,5 +37,4 @@ function Testimonials() {
     </div>
   );
 }
-
 export default Testimonials;

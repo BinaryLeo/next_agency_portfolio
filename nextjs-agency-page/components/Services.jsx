@@ -39,5 +39,4 @@ const Services = ({ services }) => {
     </div>
   );
 };
-
 export default Services;

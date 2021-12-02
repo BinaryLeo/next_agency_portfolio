@@ -23,3 +23,8 @@ h1 {
   opacity: 0.1;
   margin:auto;
 }
+@media screen and (max-width: 480px) {
+  .circle {
+    display: none;
+  }
+}

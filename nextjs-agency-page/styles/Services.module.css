@@ -26,32 +26,33 @@
 .service {
   width: 500px;
   height: 500px;
+  background-color: whitesmoke;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
-  background-color: whitesmoke;
   position: relative;
+  margin-bottom: 50px;
+  cursor: pointer;
 }
 .video {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
 .cat {
   position: absolute;
   top: 10px;
   left: 10px;
+  z-index: 999;
   color: gray;
   letter-spacing: 5px;
-  font-weight: 3700;
+  font-weight: 300;
   text-transform: uppercase;
 }
 .service:hover .media {
   transform: scale(1.1);
 }
-
 .desc {
   width: 70%;
   text-align: center;
@@ -69,7 +70,32 @@
   opacity: 0;
   transition: all 1s ease;
 }
-
 .service:hover .desc {
   opacity: 1;
+}
+.service:hover .cat {
+  font-weight: bold;
+}
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 20px;
+  }
+  .title{
+ margin:0 auto;
+  }
+  .subtitle {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .services {
+    justify-content: center;
+  }
+  .service {
+    width: 300px;
+    height: 300px;
+  }
+  .media {
+    margin-top: 15px;
+  }
 }

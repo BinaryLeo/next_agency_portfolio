@@ -20,7 +20,6 @@
   justify-content: space-around;
   position: relative;
 }
-
 .scooterLight {
   font-size: 60px;
   color: #fff;
@@ -29,7 +28,6 @@
   animation: blur 0.75s ease-out infinite;
   text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
 }
-
 @keyframes blur {
   from {
     text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 25px #fff,
@@ -60,4 +58,30 @@
   padding: 15px;
   border-radius: 10px;
   cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column;
+  }
+  .circle1 {
+    right: -50vh;
+    bottom: -50vh;
+  }
+  .card {
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  .title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .scooterLight {
+    font-size: 30px;
+  }
+  .description{
+    display: none;
+  }
 }

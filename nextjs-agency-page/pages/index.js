@@ -1,12 +1,8 @@
 import Head from 'next/head'
-import Image from 'next/image'
-
-import styles from '../styles/Home.module.css'
 import Intro from"../components/Intro"
 import Services from"../components/Services"
 import { data } from '../data'
 import Testimonials from '../components/Testimonials'
-
 export default function Home({services}) {
   console.log(services);
   return (
@@ -15,7 +11,6 @@ export default function Home({services}) {
         <title>Portfolio Page</title>
         <meta name="description" content="A Portfolio page built with Next.JS" />
       </Head>
-
     <Intro/>
     <Services services={services}/>
     <Testimonials/>
