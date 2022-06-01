@@ -1,4 +1,5 @@
-# NEXTJS_AGENCY_PORTFOLIO_PAGE
+ NEXTJS AGENCY PORTFOLIO PAGE
+ 
 A PORTFOLIO PAGE BUILT WITH [![Next.js](https://img.shields.io/badge/-Next.js-0D1117?style=flat&logo=next.js)&nbsp;](https://github.com/BinaryLeo/NEXTJS_AGENCY_PORTFOLIO_PAGE) BY BINARY LEO 👋🏻 &nbsp;[Find me on linkedin!](https://www.linkedin.com/in/leonardo-moura-92b513209/)
 
 Intro and Navbar
